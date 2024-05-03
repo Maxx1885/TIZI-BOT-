@@ -8,6 +8,6 @@ handler.group = true
 handler.botAdmin = true
 
 global.ping = ` 
- [🐲] *Bot:* 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲
+ [🩷] *Bot:* 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸
  [📶] *Ping:* ${rtime}
 `;
