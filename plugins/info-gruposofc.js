@@ -1,11 +1,11 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 𝙳𝙴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙸𝚅𝙸𝚁 𝙲𝙾𝙽 𝙻𝙰 𝙲𝙾𝙼𝚄𝙽𝙸𝙳𝙰𝙳 :D*
+  const text = `*𝗛𝗢𝗟𝗔, @user 𝗘𝗦𝗧𝗔𝗦 𝗜𝗡𝗩𝗜𝗧𝗔𝗗𝗢 𝗔 𝗨𝗡𝗜𝗥𝗧𝗘 𝗔 𝗟𝗢𝗦 𝗚𝗥𝗨𝗣𝗢𝗦 𝗢𝗙𝗜𝗖𝗜𝗔𝗟𝗘𝗦 𝗗𝗘 𝖲𝖠𝖬𝖬𝖸𝖡𝖮𝖳-𝖬𝖣 🧸,𝗬 𝗖𝗢𝗡𝗩𝗜𝗩𝗜𝗥 𝗖𝗢𝗡 𝗟𝗢𝗦 𝗠𝗜𝗘𝗠𝗕𝗥𝗢𝗦 𝗗𝗘 𝗦𝗨 𝗖𝗢𝗠𝗨𝗡𝗜𝗗𝗔𝗗 ;D.*
 
 *➤ 𝙶𝚛𝚞𝚙𝚘𝚜 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎 𝗦𝗔𝗠𝗠𝗬𝗕𝗢𝗧-𝗠𝗗🧸*
 *1.-* https://chat.whatsapp.com/Gq4sgn9JH7kJmu7vGx5485
-*➤ 𝙲𝚊𝚗𝚊𝚕 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲*
+*➤ 𝙲𝚊𝚗𝚊𝚕 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎 𝗦𝗔𝗠𝗠𝗬𝗕𝗢𝗧-𝗠𝗗 🧸*
 *1.-* https://whatsapp.com/channel/0029Vab0Bez3QxS6HnWr3Z3t`.trim();
   const buttonMessage= {
     'document': {url: `https://www.instagram.com/ancelzzz/`},
