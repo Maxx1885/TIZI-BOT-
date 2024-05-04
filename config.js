@@ -10,16 +10,16 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['59168683798', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉 - Creador 🤴', true],
-  ['523131937695', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', false],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['5493585753625', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸 - Creador 👸', true],
+  ['5493585753625', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', false],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
+  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
   [''],
   [''],
   [''],
@@ -40,13 +40,13 @@ global.owner = [
 global.suittag = ['59168683798'];
 global.prems = ['59168683798'];
 
-global.packname = '𝑻𝒐𝒎𝒂  𝑺𝒕𝒊𝒄𝒌𝒆𝒓';
-global.author = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.wm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.titulowm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.titulowm2 = `𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`
-global.igfg = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.wait = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.packname = '𝙏𝙤𝙢𝙖 𝙎𝙩𝙞𝙘𝙠𝙚𝙧';
+global.author = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
+global.wm = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
+global.titulowm = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
+global.titulowm2 = `𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸`
+global.igfg = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
+global.wait = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -69,14 +69,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`;
-global.gt = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.mysticbot = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.wm2 = `${dia} ${fecha}\n𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸`;
+global.gt = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
+global.mysticbot = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸';
 global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
 global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.waitt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
-global.waittt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
-global.waitttt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.waitt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.waittt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.waitttt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
 global.nomorown = '59168683798';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
