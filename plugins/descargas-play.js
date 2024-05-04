@@ -5,14 +5,14 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `*🤔Que esta buscado? 🤔*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play brattyputy`
+if (!text) throw `*Que buscas? 🙀*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play tu falta de querer`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫'
+additionalText = '𝕾𝖆𝖒𝖒𝖞-𝕭𝖔𝖙-𝕸𝕯 🧸'
 } else if (command === 'play2') {
-additionalText = 'video 🎥'}
+additionalText = 'VIDEO 🎥'}
 await conn.sendMessage(m.chat, {
 text: `*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 01:30 ━━━━━◉─────── 05:30
