@@ -8,7 +8,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`_*< ANTI-PRIVADOO />*_\n\n*[ 🐲 ] La función antiprivado está habilitada, por lo tanto serás bloqueado.*\nSi deseas adquirir bot para tus grupos /  bot propio personalizado\nhablame: wa.me/59168683798`, false, {mentions: [m.sender]});
+    await m.reply(`_*< ANTI-PRIVADOO />*_\n\n*[ 🧸 ] La función antiprivado está habilitada, por lo tanto serás bloqueado.*\nSi deseas adquirir bot para tus grupos /  bot propio personalizado\nhablame: wa.me/5493585753625`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
