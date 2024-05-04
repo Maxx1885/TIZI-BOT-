@@ -5,19 +5,22 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `*🤔Que esta buscado? 🤔*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play brattyputy`
+if (!text) throw `*Que buscas? 🙀*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play Tu falta de querer`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫'
+additionalText = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸'
 } else if (command === 'play2') {
 additionalText = 'video 🎥'}
 await conn.sendMessage(m.chat, {
-text: `*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
-01:30 ━━━━━◉─────── 05:30
+text: `┏━                                                       ━┓
+ 🧸 ;– *${v.title}*
+━━━━━━━━━◉───────────
+*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
-*${additionalText}*`, 
+👁️: *${v.views}*       ⏸️:*${v.timestamp}*
+┗━                *${additionalText}*                                      ━┛`, 
 contextInfo: {
 externalAdReply: {
 title: yt_play[0].title,
