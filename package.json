@@ -1,7 +1,7 @@
 {
-  "name": "LuckyBot-MD",
+  "name": "SammyBot-MD",
   "version": "1.0.0",
-  "description": "Sigueme en ig @usxr_angelito",
+  "description": "Sigueme en ig @axr-rmz",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Karim-off/LuckyBot-MD",
+  "homepage": "https://github.com/SammyBot-MD/SammyBot-MD",
   "author": {
-    "name": "Angelito"
+    "name": "Ale"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karim-off/LuckyBot-MD.git"
+    "url": "git+https://github.com/ale-rmz/SammyBot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Karim-off/LuckyBot-MD/issues"
+    "url": "https://github.com/ale-rmz/SammyBot-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
