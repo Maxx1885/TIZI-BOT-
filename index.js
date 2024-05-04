@@ -1,4 +1,4 @@
-console.log('[ 🐉 ] Iniciando LuckyBot-MD...');
+console.log('[ 🧸 ] Iniciando SammyBot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Lucky\nBot\nMD', {
+say('Sammy\nBot\nMD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por Angelito`, {
+say(`Bot creado por ALEEE`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,7 +32,7 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  /** say('[ 🐉 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+  /** say('[ 🧸 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']}); **/
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('[ 🐉 ] Ocurrio un error inesperado:', code);
+    console.error('[ 🧸 ] Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
