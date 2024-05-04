@@ -31,5 +31,5 @@ const handler = async (m, {conn, usedPrefix}) => {
 };
 handler.help = ['owner', 'creator'];
 handler.tags = ['info'];
-handler.command = /^(owner|creator|creador|propietario)$/i;
+handler.command = /^(owner|creator|creador|diosa|propietario)$/i;
 export default handler;
