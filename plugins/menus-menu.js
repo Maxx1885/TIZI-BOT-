@@ -32,10 +32,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ││•🫀 *_EXP_* ${exp} 
 ││•🫀 *_RANGO:_* ${role}  
 ││•🫀 *_DIAMANTES:_* ${limit}
-││•🫀 *_COINS:_* $[money}
+││•🫀 *_COINS:_* ${money}
 ││•🫀 *_TOKENS:_* ${joincount}
-││•🫀 *_TIEMPO ACTIVO:_* ${uptime}
-││•🫀 *_USUARIOS REG:_*${rtotalreg} de {totalreg}                                                    
+││•🫀 *_TIEMPO ACTIVO:_* ${uptime}                                                  
 ┗━━━━━━━━•◦ 🧸 •◦━━━━━━━┛
 
  ┏━━━━━━━━━━━━━━━━━━━━┓
