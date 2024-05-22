@@ -2,7 +2,7 @@
 
 >● 🧸 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗮: 𝖠𝗅𝖾𝖾🌥️
 
-## `🐉𝕷𝖚𝖈𝖐𝖞 𝕭𝖔𝖙 𝕸𝕯` 
+## `🧸𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸` 
 <p align="center">
 <img src="https://telegra.ph/file/cc8285ecdf2dfb12e3881.jpg" alt="DylanBot-MD" width="900"/>
 </p>
