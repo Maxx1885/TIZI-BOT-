@@ -1,6 +1,6 @@
->● 🧸 𝗩𝗲𝗿𝘀𝗶𝗼́𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 1.0.0
+>● 🧸 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 1.0.0
 
->● 🧸 𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝖠𝗅𝖾𝖾🩷
+>● 🧸 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗮: 𝖠𝗅𝖾𝖾🌥️
 
 ## `🐉𝕷𝖚𝖈𝖐𝖞 𝕭𝖔𝖙 𝕸𝕯` 
 <p align="center">
@@ -16,7 +16,7 @@
 😃𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖
 
 
-### `● 🫧𝑵𝒖𝒆𝒔𝒕𝒓𝒐 𝑰𝑮🫧 ●`
+### `● 🫧𝙉𝙪𝙚𝙨𝙩𝙧𝙤 𝙄𝙂🫧 ●`
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=Sígueme+En+Instagram;No+seas+malx%3A3;)
 <a href="https://www.instagram.com/ale-rmz?igsh=OGY1bGE1d3EyY212" target="blank"><img src="https://img.shields.io/badge/INSTAGRAM-25D366?style=for-the-badge&logo=Instagram&logoColor=white" />
@@ -30,18 +30,15 @@
 ```
 
  ### `● 📑𝘿𝙪𝙙𝙖𝙨 𝙨𝙤𝙗𝙧𝙚 𝙚𝙡 𝙗𝙤𝙩?⚡ ●`
-<a href="http://wa.me/59168683798" target="blank"><img src="https://img.shields.io/badge/KARIM_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/5493585753625" target="blank"><img src="https://img.shields.io/badge/ALE_CREADORA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `● 📄𝑮𝒓𝒖𝒑𝒐 𝒅𝒆 𝒔𝒐𝒑𝒐𝒓𝒕𝒆📄 ●`
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/Gq4sgn9JH7kJmu7vGx5485" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `● ⚠️𝑰𝒎𝒑𝒐𝒓𝒕𝒂𝒏𝒕𝒆⚠️ ●` 
+### `● ⚠️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄⚠️ ●` 
 
 ```bash
-𝑬𝒍 𝑩𝒐𝒕 𝒆𝒔 𝒅𝒆 𝒖𝒔𝒐 𝒆𝒙𝒄𝒍𝒖𝒔𝒊𝒗𝒐 𝒄𝒓𝒆𝒂𝒅𝒐 𝒚 𝒎𝒐𝒅𝒊𝒇𝒊𝒄𝒂𝒅𝒐 
-𝒑𝒐𝒓 𝑲𝒂𝒓𝒊𝒎-𝒐𝒇𝒇 𝒔𝒊 𝒒𝒖𝒊𝒆𝒓𝒆𝒔 𝒄𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒄𝒊ó𝒏 𝒆𝒔𝒄𝒓𝒊𝒃𝒆𝒎𝒆!! 
-𝑵𝒐 𝒊𝒏𝒕𝒆𝒏𝒕𝒆𝒔 𝒄𝒐𝒑𝒊𝒂𝒓 𝒆𝒍 𝒃𝒐𝒕 𝒑𝒐𝒓 𝒇𝒂𝒗𝒐𝒓 𝒓𝒆𝒔𝒑𝒆𝒕𝒂 
-𝒆𝒍 𝒕𝒓𝒂𝒃𝒂𝒋𝒐 𝒅𝒆 𝒄𝒂𝒅𝒂 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒚 𝒎𝒐𝒅𝒊𝒇𝒊𝒄𝒂𝒅𝒐𝒓
+𝖤𝗅 𝖻𝗈𝗍 𝖾𝗌 𝖽𝖾 𝗎𝗌𝗈 𝖾𝗑𝖼𝗅𝗎𝗌𝗂𝗏𝗈 𝖼𝗋𝖾𝖺𝖽𝗈𝗒 𝗆𝗈𝖽𝗂𝖿𝗂𝖼𝖺𝖽𝗈 𝗉𝗈𝗋 𝖠𝗅𝖾,𝗌𝗂 𝗊𝗎𝗂𝖾𝗋𝖾𝗌 𝖼𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖼𝗂𝗈𝗇 𝖾𝗌𝖼𝗋𝗂𝖻𝖾𝗆𝖾!! 𝗇𝗈 𝗂𝗇𝗍𝖾𝗇𝗍𝖾𝗌 𝖼𝗈𝗉𝗂𝖺𝗋 𝖾𝗅 𝖻𝗈𝗍 𝗉𝗈𝗋 𝖿𝖺𝗏𝗈𝗋 𝗋𝖾𝗌𝗉𝖾𝗍𝖺 𝖾𝗅 𝗍𝗋𝖺𝖻𝖺𝗃𝗈 𝖽𝖾 𝖼𝖺𝖽𝖺 𝖼𝗋𝖾𝖺𝖽𝗈𝗋 𝗒 𝗆𝗈𝖽𝗂𝖿𝗂𝖼𝖺𝖽𝗈𝗋.
 ```
 
 
@@ -51,5 +48,5 @@
 
 
   
-`● 𝑳𝒖𝒄𝒌𝒚-𝑩𝒐𝒕-𝑴𝑫 - 𝑲𝒂𝒓𝒊𝒎-𝒐𝒇𝒇 ●`
+`● 𝗦𝗮𝗺𝗺𝘆-𝗕𝗼𝘁-𝗠𝗗 - 𝖠𝗅𝖾𝖾-𝗋𝗆𝗓●`
 
