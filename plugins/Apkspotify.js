@@ -18,16 +18,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `𝐋𝐈𝐍𝐊 𝐀𝐏𝐊 𝐒𝐏𝐎𝐓𝐈𝐅𝐘 𝐏𝐑𝐄𝐌𝐈𝐔𝐌
+    const str = `𝗟𝗜𝗡𝗞 𝗔𝗣𝗞 𝗦𝗣𝗢𝗧𝗜𝗙𝗬 𝗣𝗥𝗘𝗠𝗜𝗨𝗠
 
 https://www.mediafire.com/file/qyk56ntfp2y2xhd/spotify-music-MODILIMITAO.apk/file
 
-𝙱𝚈: 𝙻𝚞𝚌𝚔𝚢𝙱𝚘𝚝-𝙼𝙳
+𝙱𝚈: 𝚂𝙰𝙼𝙼𝚈𝙱𝙾𝚃-𝙼𝙳
 
-𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼⚠️
+𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔⚠️
 
-𝑼𝒔𝒂 𝒆𝒍 𝒂𝒑𝒌 𝒃𝒂𝒋𝒐 𝒕𝒖 𝒑𝒓𝒐𝒑𝒊𝒐 𝒓𝒊𝒆𝒔𝒈𝒐 𝑳𝒖𝒄𝒌𝒚 𝑩𝒐𝒕 𝒏𝒐 𝒔𝒆 𝒉𝒂𝒄𝒆 𝒓𝒆𝒔𝒑𝒐𝒏𝒔𝒂𝒃𝒍𝒆 𝒅𝒆 𝒏𝒊𝒏𝒈𝒖𝒏 𝒕𝒊𝒑𝒐 𝒅𝒆 𝒆𝒓𝒓𝒐𝒓/𝒇𝒂𝒍𝒍𝒂𝒔/𝒃𝒍𝒐𝒒𝒖𝒆𝒐𝒔 𝒑𝒐𝒓 𝒍𝒂 𝒂𝒑𝒑 
-𝑫𝒊𝒔𝒇𝒓𝒖𝒕𝒂 𝒍𝒂 𝒂𝒑𝒑 𝒚 𝑬𝒔𝒑𝒆𝒓𝒂𝒎𝒐𝒔 𝒑𝒓𝒐𝒏𝒕𝒐 𝒂𝒈𝒓𝒆𝒈𝒂𝒓 𝒎á𝒔 𝒂𝒑𝒑𝒔 𝒑𝒓𝒆𝒎𝒊𝒖𝒎`.trim();
+𝖴𝗌𝖺 𝖾𝗅 𝖺𝗉𝗄 𝖻𝖺𝗃𝗈 𝗍𝗎 𝗉𝗋𝗈𝗉𝗂𝗈 𝗋𝗂𝖾𝗌𝗀𝗈. 𝖤𝗅 𝗌𝗍𝖺𝖿𝖿 𝖽𝖾 𝖲𝖺𝗆𝗆𝗒𝖡𝗈𝗍-𝖬𝖣 𝗇𝗈 𝗌𝖾 𝗁𝖺𝖼𝖾 𝗋𝖾𝗌𝗉𝗈𝗇𝗌𝖺𝖻𝗅𝖾 𝖽𝖾 𝗇𝗂𝗇𝗀𝗎𝗇 𝗍𝗂𝗉𝗈 𝖽𝖾 𝖾𝗋𝗋𝗈𝗋/𝖿𝖺𝗅𝗅𝖺𝗌/𝖻𝗅𝗈𝗊𝗎𝖾𝗈𝗌 𝗉𝗈𝗋 𝗅𝖺 𝖺𝗉𝗅𝗂𝖼𝖺𝖼𝗂𝗈́𝗇.\n 𝖣𝗂𝗌𝖿𝗋𝗎𝗍𝖺 𝖾𝗅 𝖺𝗉𝗄,𝖾𝗌𝗉𝖾𝗋𝖺𝗆𝗈𝗌 𝗌𝖾𝗀𝗎𝗂𝗋 𝗍𝗋𝖺𝗒𝖾𝗇𝖽𝗈 𝗇𝗎𝖾𝗏𝗈𝗌 𝖺𝗉𝗄𝗌 𝗌𝖾𝗀𝗎𝗋𝗈𝗌 𝗉𝖺𝗋𝖺 𝖾𝗅 𝗎𝗌𝗎𝖺𝗋𝗂𝗈.`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
@@ -38,7 +37,7 @@ https://www.mediafire.com/file/qyk56ntfp2y2xhd/spotify-music-MODILIMITAO.apk/fil
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '𝑨𝒑𝒌 𝒆𝒏𝒗𝒊𝒂𝒅𝒐 📩 𝒔𝒊 𝒏𝒐 𝒔𝒆 𝒆𝒏𝒗𝒊𝒐 𝒓𝒆𝒑𝒐𝒓𝒕𝒂𝒍𝒐 𝒄𝒐𝒏 𝒆𝒍 𝒔𝒕𝒂𝒇𝒇 𝒐 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒅𝒆𝒍 𝒃𝒐𝒕', m);
+    conn.reply(m.chat, '𝗔𝗽𝗸 𝗲𝗻𝘃𝗶𝗮𝗱𝗼 📩 𝘀𝗶 𝗻𝗼 𝘀𝗲 𝗲𝗻𝘃𝗶𝗼 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗰𝗼𝗻 𝗲𝗹 𝘀𝘁𝗮𝗳𝗳 𝗼 𝗰𝗿𝗲𝗮𝗱𝗼𝗿 𝗱𝗲 𝗯𝗼𝘁.', m);
   }
 };
 handler.command = /^(Apkspotify|apkspotify|spotifyapk)$/i;
