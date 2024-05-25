@@ -4,7 +4,7 @@
 
 ## `🧸𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸` 
 <p align="center">
-<img src="https://discordapp.com/channels/1243733475400486932/1243733475400486935/1243734550727753770" alt="README.jpg" width="900"/>
+<img src="https://discordapp.com/channels/1243733475400486932/1243733475400486935/1243734550727753770" alt="DylanBot-MD" width="900"/>
 </p>
 
 
