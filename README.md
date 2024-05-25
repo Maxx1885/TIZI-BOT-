@@ -4,7 +4,7 @@
 
 ## `🧸𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸` 
 <p align="center">
-<img src="https://telegra.ph/SammyBot-MD-05-25" alt="SammyBot-MD" width="900"/>
+<img src="https://telegra.ph/SammyBot-MD-05-25-2" alt="SammyBot-MD" width="900"/>
 </p>
 
 
