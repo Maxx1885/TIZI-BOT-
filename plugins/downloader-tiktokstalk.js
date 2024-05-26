@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 var handler = async (m, {conn, text}) => {
   if (!text) return conn.reply(m.chat, "*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*", m);
   try {
-    var res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=${lolkeysapi}`);
+    var res = await fetch(`https://api.lolhuman.xyz/api/tiktok-scraper/${text}?apikey=${lolkeysapi}`);
     var res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`;
     var json = await res.json();
     if (res.status !== 200) throw await res.text();
