@@ -18,21 +18,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `*🐉 I N F O R M A C I Ó N🐉*
+    const str = `*🧸 I N F O R M A C I Ó N 🧸*
  
-🐲꙰᠁❥ *◜𝑪𝒓𝒆𝒂𝒅𝒐𝒓◞:* Angelito
-🐲꙰᠁❥ *◜𝑾𝒂◞:* wa.me/59168683798
-🐲꙰᠁❥ *◜𝑰𝒈◞:* @usxr_angelito
-🐲꙰᠁❥ *◜𝑽𝒆𝒓𝒔𝒊𝒐𝒏◞:* 3.2.0
-🐲꙰᠁❥ *◜𝑷𝒓𝒆𝒇𝒊𝒋𝒐◞:* ( . )
-🐲꙰᠁❥ *◜𝑴𝒐𝒅𝒐◞:* Privado
-🐲꙰᠁❥ *◜𝑨𝒄𝒕𝒊𝒗𝒊𝒅𝒂𝒅◞:* ${uptime}
-🐲꙰᠁❥ *◜𝑼𝒔𝒖𝒂𝒓𝒊𝒐𝒔◞:* ${totalreg}
-🐲꙰᠁❥ *◜𝑽𝒆𝒍𝒐𝒄𝒊𝒅𝒂𝒅◞:* ${speed}
-🐲꙰᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒑𝒓𝒊𝒗𝒂𝒅𝒐◞:* ${chats.length - groups.length}
-🐲꙰᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒅𝒆 𝒈𝒓𝒖𝒑𝒐◞:* ${groups.length}
-🐲꙰᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒕𝒐𝒕𝒂𝒍◞:* ${chats.length}
-🐲꙰᠁❥ *◜𝑺𝒖𝒃-𝑩𝒐𝒕𝒔◞:* ${modejadibot ? "activado" : "desactivado"}
+🧸᠁❥ *◜𝑪𝒓𝒆𝒂𝒅𝒐𝒓◞:* Alee
+🧸᠁❥ *◜𝑾𝒂◞:* wa.me/5493585753625
+🧸᠁❥ *◜𝑰𝒈◞:* @axr.rmz
+🧸᠁❥ *◜𝑽𝒆𝒓𝒔𝒊𝒐𝒏◞:* 1.0.0
+🧸᠁❥ *◜𝑷𝒓𝒆𝒇𝒊𝒋𝒐◞:* ( . )
+🧸᠁❥ *◜𝑴𝒐𝒅𝒐◞:* Privado
+🧸᠁❥ *◜𝑨𝒄𝒕𝒊𝒗𝒊𝒅𝒂𝒅◞:* ${uptime}
+🧸᠁❥ *◜𝑼𝒔𝒖𝒂𝒓𝒊𝒐𝒔◞:* ${totalreg}
+🧸᠁❥ *◜𝑽𝒆𝒍𝒐𝒄𝒊𝒅𝒂𝒅◞:* ${speed}
+🧸᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒑𝒓𝒊𝒗𝒂𝒅𝒐◞:* ${chats.length - groups.length}
+🧸᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒅𝒆 𝒈𝒓𝒖𝒑𝒐◞:* ${groups.length}
+🧸᠁❥ *◜𝑪𝒉𝒂𝒕𝒔 𝒕𝒐𝒕𝒂𝒍◞:* ${chats.length}
+🧸᠁❥ *◜𝑺𝒖𝒃-𝑩𝒐𝒕𝒔◞:* ${modejadibot ? "activado" : "desactivado"}
 `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
