@@ -396,7 +396,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '🧸 𝗘𝘀𝘁𝗲 𝗺𝗲𝗻𝘂́ 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗶𝗻𝘁𝗲𝗿𝗻𝗼, 𝗽𝗼𝗿 𝗹𝗼 𝗰𝘂𝗮𝗹 𝗻𝗼 𝗳𝘂𝗲 𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗲𝗻𝘃𝗶𝗮𝗿𝗹𝗼. 𝗥𝗲𝗽𝗼𝗿𝘁𝗮 𝗲𝘀𝘁𝗲 𝗲𝗿𝗿𝗼𝗿 𝗮𝗹 𝗰𝗿𝗲𝗮𝗱𝗼𝗿 𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳.', m);
   }
 };
-handler.command = /^(menu|menú|Menú|Menu|menuu)$/i;
+handler.command = /^(allmenu|allmenú)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
