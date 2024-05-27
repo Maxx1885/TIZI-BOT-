@@ -40,7 +40,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '𝗔𝗽𝗸 𝗲𝗻𝘃𝗶𝗮𝗱𝗼 📩 𝘀𝗶 𝗻𝗼 𝘀𝗲 𝗲𝗻𝘃𝗶𝗼 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗰𝗼𝗻 𝗲𝗹 𝘀𝘁𝗮𝗳𝗳 𝗼 𝗰𝗿𝗲𝗮𝗱𝗼𝗿 𝗱𝗲 𝗯𝗼𝘁.', m);
   }
 };
-handler.command = /^(Apkminecraft|apkminecraft|minecraftapk)$/i;
+handler.command = /^(apkfivenightsatfreddy's1|apkfnaf1|apk1fnaf)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
