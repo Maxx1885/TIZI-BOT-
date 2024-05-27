@@ -36,7 +36,7 @@ let menu = `🧸 ¡Hola! ${user}
 *(Para ver el menú completo)*
 
 !owner
-*(Para ver el propietario del bot)*`
+*(Para ver el propietario del bot)*
 
 !menuaudios
 *(para ver el menú de audios)*
@@ -48,7 +48,7 @@ let menu = `🧸 ¡Hola! ${user}
 *(para el menú de apks)*
 
 !menuanime
-(para el menú de anime)*
+(para el menú de anime)*`
 
 await conn.reply(m.chat, menu, fkontak, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hola! ' + user, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
