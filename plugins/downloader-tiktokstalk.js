@@ -1,29 +1,30 @@
-import fetch from "node-fetch";
-const TikTok = require('tiktok-scraper');
-var handler = async (m, {conn, text}) => {
-  if (!text) return conn.reply(m.chat, "*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*", m);
-  try {
-    var res = await fetch(`https://api.lolhuman.xyz/api/tiktok-scraper/${text}?apikey=${lolkeysapi}`);
-    var res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=${lolkeysapi}`;
-    var json = await res.json();
-    if (res.status !== 200) throw await res.text();
-    if (!json.status) throw json;
-    var thumb = await (await fetch(json.result.user_picture)).buffer();
-    const dorrat = `
-*🔍 USUARIO:* ${json.result.username}
-*👤 NOMBRE:* ${json.result.nickname}
-*🌐 SEGUIDORES:* ${json.result.followers}
-*📦 SEGUIDOS:* ${json.result.followings}
-*👍 LIKES:* ${json.result.likes}
-*📹 VIDEOS:* ${json.result.video}
-*📝 DESCRIPCIÓN:* ${json.result.bio}
-`.trim();
-    conn.sendFile(m.chat, res2, "error.jpg", dorrat, m, false);
-  } catch (e) {
-    throw "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝚂𝙴 𝙴𝙲𝙾𝙽𝚃𝚁𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙸𝙽𝙶𝚁𝙴𝚂𝙰𝙳𝙾*";
-  }
-};
-handler.help = ["tiktokstalk"].map((v) => v + " <username>");
-handler.tags = ["stalk"];
-handler.command = /^(tiktokstalk|ttstalk)$/i;
-export default handler;
+
+import fg from 'api-dylux'
+let handler = async (m, { conn, text, args }) => {
+
+  if (!text) throw `❱❱ 𝙄 𝙉 𝙁 𝙊 𝙍 𝙈 𝘼 𝘾 𝙄 𝙊 𝙉 ❰❰\n\n🔮 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤\n\n» 𝙐𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:\n𝘌𝘫𝘦𝘮𝘱𝘭𝘰: .𝘵𝘪𝘬𝘵𝘰𝘬𝘴𝘵𝘢𝘭𝘬 𝘶𝘴𝘹𝘳_𝘢𝘯𝘨𝘦𝘭𝘪𝘵𝘰0`
+try {
+  let res = await fg.ttStalk(args[0])
+  let txt = `
+_*Ｔ Ｉ Ｋ Ｔ Ｏ Ｋ  Ｓ Ｔ Ａ Ｌ Ｋ*_
+
+*🔍 USUARIO:* ${res.username}
+*👤 NOMBRE:* ${res.name}
+*🌐 SEGUIDORES:* ${res.followers}
+*📦 SEGUIDOS:* ${res.following}
+*👍 LIKES:* ${res.likes}
+*📹 VIDEOS:* ${.res.videolike}
+*📝 DESCRIPCIÓN:* ${res.desc}
+ 🔗 𝙇𝙞𝙣𝙠 : https://tiktok.com/${res.username}
+
+𝗕𝗬: 𝖲𝖺𝗆𝗆𝗒𝖡𝗈𝗍-𝖬𝖣 🧸✨`
+  await conn.sendFile(m.chat, res.profile, 'tt.png', txt, m)
+} catch {
+    m.reply(`❱❱ 𝙄 𝙉 𝙁 𝙊 𝙍 𝙈 𝘼 𝘾 𝙄 𝙊 𝙉 ❰❰\n\n🔮 𝙍𝙚𝙫𝙞𝙨𝙖 𝙦𝙪𝙚 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙨𝙚𝙖 𝙙𝙚 𝙏𝙞𝙠𝙏𝙤𝙠`)
+}
+}
+handler.help = ['tiktokstalk']
+handler.tags = ['dl']
+handler.command = /^t(tstalk|iktokstalk)$/i
+
+export default handler
