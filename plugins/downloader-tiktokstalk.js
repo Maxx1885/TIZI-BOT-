@@ -2,7 +2,11 @@
 import fg from 'api-dylux'
 let handler = async (m, { conn, text, args }) => {
 
-  if (!text) throw `❱❱ 𝙄 𝙉 𝙁 𝙊 𝙍 𝙈 𝘼 𝘾 𝙄 𝙊 𝙉 ❰❰\n\n🔮 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤\n\n» 𝙐𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:\n𝘌𝘫𝘦𝘮𝘱𝘭𝘰: .𝘵𝘪𝘬𝘵𝘰𝘬𝘴𝘵𝘢𝘭𝘬 𝘶𝘴𝘹𝘳_𝘢𝘯𝘨𝘦𝘭𝘪𝘵𝘰0`
+  if (!text) throw `‎ ‎  ‎ ━━「 🌸 𝗜 𝗡 𝗙 𝗢 𝗥 𝗠 𝗔 𝗖 𝗜 𝗢 𝗡 🌸 」━━
+╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ 
+🧸 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤 
+🧸 𝙐𝙨𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤 𝙙𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤: 
+𝖤𝗃𝖾𝗆𝗉𝗅𝗈: .tiktokstalk juandamc'
 try {
   let res = await fg.ttStalk(args[0])
   let txt = `
