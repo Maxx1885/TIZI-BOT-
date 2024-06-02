@@ -8,12 +8,22 @@ try {
   let txt = `
 _*Ｔ Ｉ Ｋ Ｔ Ｏ Ｋ  Ｓ Ｔ Ａ Ｌ Ｋ*_
 
-*🔍 USUARIO:* ${res.username}
-*👤 NOMBRE:* ${res.name}
-*🌐 SEGUIDORES:* ${res.followers}
-*📦 SEGUIDOS:* ${res.following}
-*📝 DESCRIPCIÓN:* ${res.desc}
- 🔗 𝙇𝙞𝙣𝙠 : https://tiktok.com/${res.username}
+*🔍 USUARIO:* 
+•${res.username}
+
+*👤 NOMBRE:* 
+•${res.name}
+
+*🌐 SEGUIDORES:*
+• ${res.followers}
+
+*📦 SEGUIDOS:* 
+• ${res.following}
+
+*📝 DESCRIPCIÓN:* 
+• ${res.desc}
+ 
+🔗 𝙇𝙞𝙣𝙠 : https://tiktok.com/${res.username}
 
 𝗕𝗬: 𝖲𝖺𝗆𝗆𝗒𝖡𝗈𝗍-𝖬𝖣 🧸✨`
   await conn.sendFile(m.chat, res.profile, 'tt.png', txt, m)
