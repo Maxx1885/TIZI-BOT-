@@ -5,37 +5,37 @@ import fg from 'api-dylux';
  import { generateWAMessageFromContent } from '@whiskeysockets/baileys';
  import { tiktokdl } from '@bochilteam/scraper';
  let handler = async (m, { conn, text, args, usedPrefix, command}) => { 
- if (!text) throw `*✘error✘*\n\n_. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/kandndbwldnig/🍁_` 
- if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*✘error✘* _. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁_` 
- let texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._` 
+ if (!text) throw `‎ ‎  ‎ ━━「 🌸 𝗜 𝗡 𝗙 𝗢 𝗥 𝗠 𝗔 𝗖 𝗜 𝗢 𝗡 🌸 」━━\n╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ \n🧸 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤 \n🧸 𝙐𝙨𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤 𝙙𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤: \n𝖤𝗃𝖾𝗆𝗉𝗅𝗈: .tiktok <link>` 
+ if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw ` ━━「 🌸 𝗜 𝗡 𝗙 𝗢 𝗥 𝗠 𝗔 𝗖 𝗜 𝗢 𝗡 🌸 」━━\n╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ \n🧸 𝙑𝙚𝙧𝙞𝙛𝙞𝙘𝙖 𝙦𝙪𝙚 𝙚𝙡 𝙡𝙞𝙣𝙠 𝙙𝙚 𝙏𝙞𝙠𝙏𝙤𝙠 𝙨𝙚𝙖 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤\n🧸 𝙐𝙨𝙤 𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤 𝙙𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤: \n𝖤𝗃𝖾𝗆𝗉𝗅𝗈: .tiktok <link> ` 
+ let texto = `🧸 @${m.sender.split`@`[0]} 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤.... 🧸` 
  try { 
   conn.sendMessage(m.chat, { text: texto, mentions: [m.sender]}, {quoted: m})
  await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })     
  const dataF = await tiktok.v1(args[0]) 
- //let desc1 =  `*USUARIO:* ${dataF.nickname || 'Indefinido'}` 
- let desc1 =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ //let desc1 =  `𝗨𝗦𝗨𝗔𝗥𝗜𝗢: ${dataF.nickname || 'Indefinido'}` 
+ let desc1 =  `𝗔𝗤𝗨𝗜 𝗧𝗜𝗘𝗡𝗘 𝗦𝗨 𝗧𝗜𝗞𝗧𝗢𝗞 🧸` 
  await conn.sendMessage(m.chat, { video: { url: dataF.play }, caption: desc1 }, { quoted: m })   
  } catch (e1) { 
  try { 
  const tTiktok = await tiktokdlF(args[0]) 
- //let desc2 = `🔗 *Url:* ${tTiktok.video}`     
- let desc2 =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ //let desc2 = `🧸𝗨𝗥𝗟: ${tTiktok.video}`     
+ let desc2 =  `𝗔𝗤𝗨𝗜 𝗧𝗜𝗘𝗡𝗘 𝗦𝗨 𝗧𝗜𝗞𝗧𝗢𝗞 🧸` 
  await conn.sendMessage(m.chat, { video: { url: tTiktok.video }, caption: desc2 }, { quoted: m })       
  } catch (e2) { 
  try { 
  let p = await fg.tiktok(args[0])  
- //let te = `*USUARIO:* ${p.author || 'Indefinido'}` 
- let te =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ //let te = `🧸𝗨𝗦𝗨𝗔𝗥𝗜𝗢: ${p.author || 'Indefinido'}` 
+ let te =  `𝗔𝗤𝗨𝗜 𝗧𝗜𝗘𝗡𝗘 𝗦𝗨 𝗧𝗜𝗞𝗧𝗢𝗞 🧸` 
  await conn.sendMessage(m.chat, { video: { url: p.nowm}, caption: te }, { quoted: m })   
  } catch (e3) { 
  try {  
  const { author: { nickname }, video, description } = await tiktokdl(args[0]) 
  const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd 
- //let cap = `*USUARIO:* ${nickname || 'Indefinido'}` 
- let cap =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ //let cap = `🧸𝗨𝗦𝗨𝗔𝗥𝗜𝗢: ${nickname || 'Indefinido'}` 
+ let cap =  `𝗔𝗤𝗨𝗜 𝗧𝗜𝗘𝗡𝗘 𝗦𝗨 𝗧𝗜𝗞𝗧𝗢𝗞 🧸` 
  await conn.sendMessage(m.chat, { video: { url: url}, caption: cap }, { quoted: m })   
  } catch { 
- throw `_✘error✘ _Vuelve a intentarlo_` 
+ throw ` ━━「 🌸 𝗜 𝗡 𝗙 𝗢 𝗥 𝗠 𝗔 𝗖 𝗜 𝗢 𝗡 🌸 」━━\n╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ \n🧸 𝗛𝘂𝗯𝗼 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗮𝗹 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗿\n 𝘀𝘂 𝘃𝗶𝗱𝗲𝗼.` 
  }}}}} 
  handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i 
  export default handler 
