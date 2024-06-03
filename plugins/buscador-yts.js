@@ -31,7 +31,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     body: { text: `🧸 𝗥𝗘𝗦𝗨𝗟𝗧𝗔𝗗𝗢𝗦 𝗢𝗕𝗧𝗘𝗡𝗜𝗗𝗢𝗦: ${results.videos.length}\n🧸 𝗩𝗜𝗗𝗘𝗢 𝗔𝗟𝗘𝗔𝗧𝗢𝗥𝗜𝗢:\n-› 𝗧𝗜𝗧𝗨𝗟𝗢: ${randomVideo.title}\n-›🧸 𝗔𝗨𝗧𝗢𝗥: ${randomVideo.author.name}\n-›🧸 𝗩𝗜𝗦𝗜𝗧𝗔𝗦: ${randomVideo.views}\n-›🧸 𝗨𝗥𝗟: ${randomVideo.url}\n-› 𝗜𝗠𝗔𝗚𝗘𝗡: ${randomVideo.thumbnail}`.trim() },
     footer: { text: `${global.wm}`.trim() },  
       header: {
-          title: `*𝖸 𝖮 𝖴 𝖳 𝖴 𝖡 𝖤  𝖲 𝖤 𝖠 𝖱 𝖢 𝖧 *\n`,
+          title: `_𝖸 𝖮 𝖴 𝖳 𝖴 𝖡 𝖤  𝖲 𝖤 𝖠 𝖱 𝖢 𝖧_\n`,
           hasMediaAttachment: true,
           imageMessage: messa.imageMessage,
       },
