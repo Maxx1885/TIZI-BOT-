@@ -44,8 +44,8 @@ sourceUrl: "http://paypal.me/DorratBotOficial", mediaType: 1, showAdAttribution:
   "menucompleto",
   "allmenu"
   ];
-  shadow.tags = ["internet"]  
-  export default shadow 
+  sammy.tags = ["internet"]  
+  export default sammy
 
   function clockString(ms) { 
    const h = isNaN(ms) ? "--" : Math.floor(ms / 3600000); 
