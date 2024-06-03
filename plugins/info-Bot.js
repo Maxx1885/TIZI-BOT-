@@ -23,17 +23,17 @@ let speed = neww - old
 let info = `
 *📑 INFO SHIZUKABOT-MD*
 
-👑 *CREADOR*
- *Alba070503*
+👑 *CREADORA*
+ *Alee-rmz*
 --------------------------
 🥏 *CONTACTO* 
- *${ig}*
+ *wa.me/5493585753625*
 --------------------------
 🌐 *VERSIÓN ACTUAL*
  ${vs}
 --------------------------
 💻 *PREFIJO*
- *${usedPrefix}*
+ .
 --------------------------
 🚦 *CHATS PRIVADOS*
  *${chats.length - groups.length}*
