@@ -28,10 +28,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
 
   var messa = await prepareWAMessageMedia({ image: {url: randomVideo.thumbnail}}, { upload: conn.waUploadToServer })
   const interactiveMessage = {
-    body: { text: `*—◉ Resultados obtenidos:* ${results.videos.length}\n*—◉ Video aleatorio:*\n*-› Title:* ${randomVideo.title}\n*-› Author:* ${randomVideo.author.name}\n*-› Views:* ${randomVideo.views}\n*-› Url:* ${randomVideo.url}\n*-› Imagen:* ${randomVideo.thumbnail}`.trim() },
+    body: { text: `🧸 𝗥𝗘𝗦𝗨𝗟𝗧𝗔𝗗𝗢𝗦 𝗢𝗕𝗧𝗘𝗡𝗜𝗗𝗢𝗦: ${results.videos.length}\n🧸 𝗩𝗜𝗗𝗘𝗢 𝗔𝗟𝗘𝗔𝗧𝗢𝗥𝗜𝗢:\n-› 𝗧𝗜𝗧𝗨𝗟𝗢: ${randomVideo.title}\n-›🧸 𝗔𝗨𝗧𝗢𝗥: ${randomVideo.author.name}\n-›🧸 𝗩𝗜𝗦𝗜𝗧𝗔𝗦: ${randomVideo.views}\n-›🧸 𝗨𝗥𝗟: ${randomVideo.url}\n-› 𝗜𝗠𝗔𝗚𝗘𝗡: ${randomVideo.thumbnail}`.trim() },
     footer: { text: `${global.wm}`.trim() },  
       header: {
-          title: `*< YouTube Search />*\n`,
+          title: `*𝖸 𝖮 𝖴 𝖳 𝖴 𝖡 𝖤  𝖲 𝖤 𝖠 𝖱 𝖢 𝖧 *\n`,
           hasMediaAttachment: true,
           imageMessage: messa.imageMessage,
       },
@@ -81,10 +81,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     switch (v.type) {
       case 'video': return `
 ° *_${v.title}_*
-↳ 🫐 *_Url_* ${v.url}
-↳ 🕒 *_Fecha_* ${v.timestamp}
-↳ 📥 *_fecha_* ${v.ago}
-↳ 👁 *_Vista_* ${v.views}`;
+↳ 🫐 𝙐𝙍𝙇 ${v.url}
+↳ 🕒 𝘿𝙐𝙍𝘼𝘾𝙄𝙊́𝙉 ${v.timestamp}
+↳ 📥 𝙁𝙀𝘾𝙃𝘼 ${v.ago}
+↳ 👁 𝙑𝙄𝙎𝙄𝙏𝘼𝙎 ${v.views}`;
     }
   }).filter((v) => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendFile(m.chat, tes[0].thumbnail, 'error.jpg', teks.trim(), m);      
