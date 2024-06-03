@@ -1,28 +1,28 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/59175655964*
+  const text = `*—◉ 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗗𝗘 𝗠𝗜 𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗔 𝗘𝗦: wa.me/5493585753625*
 
-*—◉ Segundo Numero de Alba07503 es : wa.me/59169082575*
+*—◉ Segundo Numero de Ale es : wa.me/5493585753625*
 
-*—◉ Numero Oficial del Bot es : wa.me/59165892573*`.trim();
+*—◉ 𝗡𝗨𝗠𝗘𝗥𝗢 𝗢𝗙𝗜𝗖𝗜𝗔𝗟 𝗗𝗘𝗟 𝗕𝗢𝗧: wa.me/5493585137595*`.trim();
   const buttonMessage= {
-    'document': {url: `https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04`},
+    'document': {url: `https://whatsapp.com/channel/0029Vab0Bez3QxS6HnWr3Z3t`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    'fileName': `「 𝗛𝗢𝗟𝗔 𝗠𝗨𝗡𝗗𝗢 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04',
+        'mediaUrl': 'https://whatsapp.com/channel/0029Vab0Bez3QxS6HnWr3Z3t',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': 'Numero Oficiales',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04'}},
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vab0Bez3QxS6HnWr3Z3t'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
