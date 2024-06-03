@@ -1,7 +1,9 @@
+
+import { generateWAMessageFromContent } from '@whiskeysockets/baileys'
 import os from 'os'
 import util from 'util'
 import sizeFormatter from 'human-readable'
-let MessageType =  (await import(global.baileys)).default
+import MessageType from '@whiskeysockets/baileys'
 import fs from 'fs'
 import { performance } from 'perf_hooks'
 let handler = async (m, { conn, usedPrefix }) => {
@@ -12,73 +14,57 @@ const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isCha
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
 const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
-const cpus = os.cpus().map(cpu => {
-    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
-    return cpu
-  })
-const cpu = cpus.reduce((last, cpu, _, { length }) => {
-    last.total += cpu.total
-    last.speed += cpu.speed / length
-    last.times.user += cpu.times.user
-    last.times.nice += cpu.times.nice
-    last.times.sys += cpu.times.sys
-    last.times.idle += cpu.times.idle
-    last.times.irq += cpu.times.irq
-    return last
-  }, {
-    speed: 0,
-    total: 0,
-    times: {
-      user: 0,
-      nice: 0,
-      sys: 0,
-      idle: 0,
-      irq: 0
-    }
-  })
-const { restrict } = global.db.data.settings[conn.user.jid] || {}
-const { autoread } = global.opts
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let pp = './Menu2.jpg'
-//let vn = './media/infobot.mp3'
-let name = await conn.getName(m.sender)
+const { restrict, antiCall, antiprivado, modejadibot } = global.db.data.settings[conn.user.jid] || {}
+const { autoread, gconly, pconly, self } = global.opts || {}
 let old = performance.now()
-  //await m.reply('_Realizando test_')
-  let neww = performance.now()
-  let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
-  let speed = neww - old
+let neww = performance.now()
+let pp = './storage/logos/Menu1.jpg'
+let speed = neww - old
+let info = `
+*📑 INFO SHIZUKABOT-MD*
 
-let info = `           \`『ＩＮＦＯ ＤＥＬ ＢＯＴ 』\`
-
-> 🤴🏻 *CREADOR:* Daniel 🇦🇱
-> #️⃣ *CONTACTO:* ${asistencia}
-> ✅ *VERSION ACTUAL:* ${vs}
-> 🎳 *PREFIJO:* *${usedPrefix}*
-> 🔐 *CHATS PRIVADO:* *${chats.length - groups.length}*
-> 🦜 *CHATS DE GRUPOS:* *${groups.length}* 
-> 💡 *CHATS EN TOTAL:* *${chats.length}* 
-> 🚀 *ACTIVIDAD:* *${uptime}*
-> 🎩 *USUARIOS:* *${totalreg}*
-> 🐢 *VELOCIDAD:* *${speed}*   
-> 🌎 *MODO:* ${global.db.data.settings[conn.user.jid].self ? '*Privado*' : '*Público*'}
-> 💬 *ANTIPRIVADO:* ${global.db.data.settings[conn.user.jid].antiprivado ? '*Activado ✔*' : '*Desactivado ✘*'}
-> 📵 *ANTILLAMADA:* ${global.db.data.settings[conn.user.jid].antiCall ? '*Activado ✔*' : '*Desactivado*'}
-> 🤖 *BOTEMPORAL:* *${global.db.data.settings[conn.user.jid].temporal ? 'Activado ✔' : 'Desactivado ✘'}*
-> ☑️ *AUTOREAD:*  ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}   
-> 🤖 *BOTS SECUNDARIOS ACTIVOS:* *${totaljadibot.length}*
-> ⛔ *RESTRICT:* ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'}`
-conn.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/0201b8bffdd9981043023.jpg", }, caption: info,
-contextInfo: {
-mentionedJid: [m.sender],
-externalAdReply: {
-title: `IGNA • BOT`,
-sourceUrl: "http://wa.me/51955918117",
-mediaType: 1,
-showAdAttribution: true,
-thumbnailUrl: "https://telegra.ph/file/0201b8bffdd9981043023.jpg",
-handler.help = ['infobot']
-handler.tags = ['info', 'tools']
-handler.command = /^(infobot|informacionbot|infogata|informacióngata|informaciongata)$/i
+👑 *CREADOR*
+ *Alba070503*
+--------------------------
+🥏 *CONTACTO* 
+ *${ig}*
+--------------------------
+🌐 *VERSIÓN ACTUAL*
+ ${vs}
+--------------------------
+💻 *PREFIJO*
+ *${usedPrefix}*
+--------------------------
+🚦 *CHATS PRIVADOS*
+ *${chats.length - groups.length}*
+--------------------------
+📑 *CHATS GRUPALES*
+ *${groups.length}* 
+--------------------------
+💬 *CHATS EN TOTAL*
+ *${chats.length}* 
+--------------------------
+⏰ *ACTIVIDAD*
+ *${uptime}*
+--------------------------
+👥 *USUARIOS*
+ *${totalreg}* 
+--------------------------
+🚀 *VELOCIDAD:*
+ *${speed}*
+--------------------------
+📡 *AUTOREAD:*
+ ${autoread ? '*Habilitado ✅*' : '*Deshabilitado ❌*'}
+--------------------------
+🔰 *RESTRICT:*
+${restrict ? '*Habilitado ✅*' : '*Deshabilitado ❌*'}`.trim() 
+let aa = { quoted: m, userJid: conn.user.jid }
+let res = generateWAMessageFromContent (m.chat, {liveLocationMessage: {degreesLatitude: 0, degreesLongitude: 0, caption: info, secuenceNumber: "0", contextInfo: {mentionedJid: conn.parseMention()}}}, aa)
+conn.relayMessage(m.chat, res.message, {})
+}
+handler.help = ['infobot', 'speed']
+handler.tags = ['main']
+handler.command = /^(infobot|Infobot)$/i
 export default handler
 
 function clockString(ms) {
