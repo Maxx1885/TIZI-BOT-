@@ -23,17 +23,7 @@ var shadow = async (m, {
    const db = "imagen1.jpg"
 
 if (command == "menu" || command == "menú") {
-let uwu = `╦══════════════════ ⪨
-┃│✾ ⋟ *${ucapan()}*
-┃│✾ ⋟ *tenemos varios tipos de menus*
-┃│✾ ⋟ 
-┃│✾ ⋟ *#menucompleto*
-┃│✾ ⋟ *_Muestra el menu completo_*
-┃│✾ ⋟ *#descargasmenu*
-┃│✾ ⋟ *_Muestra el menu de descargas_*
-┃│✾ ⋟ *#hornymenu*
-┃│✾ ⋟ *_muestra el menu +18_*
-┃╰══ ⪨`
+let uwu = `variostiposdemenu😅`
 conn.sendButton(m.chat, uwu, null, imagen1, [
 ['🌐 menucompleto', '.allmenu'],
 ['🧳 descargasmenu', '.descargasmenu'],
