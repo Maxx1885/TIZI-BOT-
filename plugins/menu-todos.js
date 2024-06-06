@@ -61,5 +61,6 @@ await conn.relayMessage(msg.key.remoteJid, msg.message, { messageId: msg.key.id 
 
 }
 handler.command = /^(help|ayuda)$/i
+handler.register = true
 
 export default handler
