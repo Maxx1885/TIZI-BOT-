@@ -3,7 +3,6 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, text }) => {
 
 if (!text) throw `🧸 𝙄𝙣𝙜𝙧𝙚𝙨𝙖 𝙪𝙣 𝙩𝙚𝙭𝙩𝙤 𝙥𝙖𝙧𝙖 𝙝𝙖𝙗𝙡𝙖𝙧 𝙘𝙤𝙣 𝙘𝙝𝙖𝙩𝙂𝙋𝙏`;
-m.react('💬')
 
  let syst = `Eres Senna Bot, un gran modelo de lenguaje entrenado por OpenAI. Siga cuidadosamente las instrucciones del usuario. Responde usando Markdown.`
         try {
