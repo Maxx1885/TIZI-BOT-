@@ -1,14 +1,3 @@
-/*
-
-- Agradecimiento a la comunidad de "WSApp • Developers"
- * https://chat.whatsapp.com/FaQunmlp9BmDRk6lEEc9FJ
-- Agradecimiento especial a Carlos (PT) por los codigos de interactiveMessage (botones)
-- Agradecimiento a Darlyn1234 por la estructura de uso en este codigo y quoted
- * https://github.com/darlyn1234
-- Adaptacion de imagen en tipo lista, codigo y funcionamiento por BrunoSobrino
- * https://github.com/BrunoSobrino
-
-*/
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys'
 import yts from 'yt-search';
 import fs from 'fs';
@@ -16,6 +5,8 @@ import fs from 'fs';
 const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const datas = global;
     const device = await getDevice(m.key.id);
+const pp = imagen1;
+const img = imagen4;
 
   if (!text) throw `⚠️ *Error*`;
 
@@ -26,12 +17,13 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   const randomIndex = Math.floor(Math.random() * videos.length);
   const randomVideo = videos[randomIndex];
 
-  var messa = await prepareWAMessageMedia({ image: {url: randomVideo.thumbnail}}, { upload: conn.waUploadToServer })
+  var messa = await prepareWAMessageMedia({ image: img, { upload: conn.waUploadToServer })
   const interactiveMessage = {
-    body: { text: `-›🧸 𝗥𝗘𝗦𝗨𝗟𝗧𝗔𝗗𝗢𝗦 𝗢𝗕𝗧𝗘𝗡𝗜𝗗𝗢𝗦: ${results.videos.length}\n-›🧸 𝗩𝗜𝗗𝗘𝗢 𝗔𝗟𝗘𝗔𝗧𝗢𝗥𝗜𝗢:\n-›🧸 𝗧𝗜𝗧𝗨𝗟𝗢: ${randomVideo.title}\n-›🧸 𝗔𝗨𝗧𝗢𝗥: ${randomVideo.author.name}\n-›🧸 𝗩𝗜𝗦𝗜𝗧𝗔𝗦: ${randomVideo.views}\n-›🧸 𝗨𝗥𝗟: ${randomVideo.url}\n-›🧸𝗜𝗠𝗔𝗚𝗘𝗡: ${randomVideo.thumbnail}`.trim() },
+    body: { text: `•🧸𝘾𝙍𝙀𝘼𝘿𝙊𝙍𝘼
+•🧸 wa.me/5493585753625\n•🔮𝙑𝙀𝙍𝙎𝙄𝙊𝙉 𝘿𝙀𝙇 𝘽𝙊𝙏: 1.0.0\n•🧸𝙁𝙀𝘾𝙃𝘼: \n•🧸𝙉𝙄𝙑𝙀𝙇: \n•🧸𝙀𝙓𝙋: \n•🧸𝙍𝘼𝙉𝙂𝙊: \n•🧸𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀𝙎: \n•🧸𝙎𝘼𝙈𝙈𝙔𝘾𝙊𝙄𝙉𝙎:\n•🧸𝙏𝙊𝙆𝙀𝙉𝙎:\n•🧸𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏:`.trim() },
     footer: { text: `${global.wm}`.trim() },  
       header: {
-          title: `*⛩️  𝘠  𝘖  𝘜  𝘛  𝘜  𝘉  𝘌    𝘚  𝘌  𝘈  𝘙  𝘊  𝘏  ⛩️*\n`,
+          title: `*🧸 ＨＥＬＰ  ＭＥＮＵ 🧸*\n`,
           hasMediaAttachment: true,
           imageMessage: messa.imageMessage,
       },
@@ -40,7 +32,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         {
           name: 'single_select',
           buttonParamsJson: JSON.stringify({
-            title: 'OPCIONES DISPONIBLES',
+            title: 'MENUS XIA',
             sections: videos.map((video) => ({
               title: video.title,
               rows: [
@@ -48,13 +40,13 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                   header: video.title,
                   title: video.author.name,
                   description: 'Descargar MP3',
-                  id: `.play ${video.url}`
+                  id: `${prefijo}ytmp3 ${video.url}`
                 },
                 {
                   header: video.title,
                   title: video.author.name,
                   description: 'Descargar MP4',
-                  id: `.play2  ${video.url}`
+                  id: `${prefijo}ytmp4 ${video.url}`
                 }
               ]
             }))
