@@ -72,5 +72,7 @@ if (!args[0]) throw `
 }
 handler.command = /^(vs24norte|24vs24norte|vs24n|24vs24n)$/i
 handler.admin = true
+handler.register = true
+handler.tags = ['group']
 handler.group = true
 export default handler
