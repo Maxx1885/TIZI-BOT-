@@ -10,12 +10,12 @@ import moment from 'moment-timezone';
 global.botnumber = "5493585137595"
 
 global.owner = [
-  ['+5493536568522', 'Tizi bot ☠️ - Creador 👸', true]];
+  ['5493536568522', 'Tizi bot ☠️ - Creador 👸', true]];
   
 
 
-global.suittag = ['+5493536568522'];
-global.prems = ['+5493536568522'];
+global.suittag = ['5493536568522'];
+global.prems = ['5493536568522'];
 
 global.packname = '𝙏𝙤𝙢𝙖 𝙎𝙩𝙞𝙘𝙠𝙚𝙧';
 global.author = 'Tizi bot ☠️';
@@ -55,7 +55,7 @@ global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
 global.waitt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
 global.waittt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
 global.waitttt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
-global.nomorown = '+5493536568522';
+global.nomorown = '5493536568522';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
