@@ -18,113 +18,113 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━• 💌 𝗦𝗮𝗺𝗺𝘆 𝗕𝗼𝘁 💌 •━━━━┓
+    const str = `┏━━━━• ☠️ 𝗧𝗜𝗭𝗜 - 𝗕𝗢𝗧 ☠️ •━━━━┓
 │ ┌──────────────────┐
-│   •🧸 ¡𝗛𝗲𝗹𝗹𝗼! @user
+│   •☠️ ¡ʜᴏʟᴀ! @user
 │ └──────────────────┘
-││•🫀 *_CREADOR/A_*  wa.me/+543585753625
-││•🫀 *_VERSIÓN DEL BOT:_* *1.0.0*
-││•🫀 *_FECHA:_* ${date} 
-││•🫀  *_NIVEL:_* ${level}
-││•🫀 *_EXP_* ${exp} 
-││•🫀 *_RANGO:_* ${role}  
-││•🫀 *_DIAMANTES:_* ${limit}
-││•🫀 *_COINS:_* ${money}
-││•🫀 *_TOKENS:_* ${joincount}
-││•🫀 *_TIEMPO ACTIVO:_* ${uptime}                                                                                                  
-┗━━━━━━━━•◦ 🧸 •◦━━━━━━━┛
+││•🫀 ᴄʀᴇᴀᴅᴏʀ  wa.me/+5493536568522
+││•🫀ᴠᴇʀᴄɪᴏ̂ɴ ᴅᴇʟ ʙᴏᴛ| 1.0.0
+││•🫀 ғᴇᴄʜᴀ| ${date} 
+││•🫀ɴɪᴠᴇʟ| ${level}
+││•🫀ᴇxᴘ| ${exp} 
+││•🫀 ʀᴀɴɢᴏ| ${role}  
+││•🫀 ᴅɪᴀᴍᴀɴᴛᴇs| ${limit}
+││•🫀ᴛɪᴢɪᴄᴏɪɴs| ${money}
+││•🫀 ᴛᴏᴋᴇɴs| ${joincount}
+││•🫀 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ| ${uptime}                                                                                                  
+┗━━━━━━━━•◦ ☠️ •◦━━━━━━━┛
 
  ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗕𝗨𝗦𝗖𝗔𝗥 𝗩𝗦-𝗣𝗟𝗔𝗡𝗧𝗜𝗟𝗟𝗔𝗦 🌕                               
  ┗━━━━━━━━━━━━━━━━━━━━┛
- │•🌕 _*buscarvsmasc*_
- │•🌕 *_bsmsac_*
- │•🌕 *_buscarvsfem_*
- │•🌕 *_buscarvsmixto_*
- │•🌕 *_formulario_*
+ │•🌕 ʙᴜsᴄᴀʀᴠsᴍᴀsᴄ
+ │•🌕 ʙsᴍsᴀᴄ
+ │•🌕 ʙᴜsᴄᴀʀᴠsғᴇᴍ
+ │•🌕 ʙᴜsᴄᴀʀᴠsᴍɪxᴛᴏ
+ │•🌕 ғᴏʀᴍᴜʟᴀʀɪᴏ
 ┗━━━━━━━━━━━━━━━━━━━━┛
  ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗟𝗜𝗦𝗧𝗔𝗦 - 𝗙𝗘𝗠 🎀                               
  ┗━━━━━━━━━━━━━━━━━━━━┛
- │• 🎀 *_feminfinito14_*
- │• 🎀 *_feminfinito16_*
- │• 🎀 *_feminfinito18_*
- │• 🎀 *_feminfinito20_*
- │• 🎀 *_feminfinito00_*
- │• 🎀 *_feminfinitovs_*
- │• 🎀 *_femvivido14_*
- │• 🎀 *_femvivido16_*
- │• 🎀 *_femvivido18_*
- │• 🎀 *_femvivido20_*
- │• 🎀 *_femvivido22_*
- │• 🎀 *_femvivido00_*
- │• 🎀 *_femvividovs_*
- │• 🎀 *_fem8vs8_*
- │• 🎀 *_fem12vs12_*
- │• 🎀 *_fem16vs16_*
- │• 🎀 *_feminterna4_*
- │• 🎀 *_feminterna6_*
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏ 14
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏ 16
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏ 18
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏ 20
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏ 00
+ │• 🎀 ғᴇᴍɪɴғɪɴɪᴛᴏᴠs
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 14
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 16
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 18
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 20
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 22
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴅᴏ 00
+ │• 🎀 ғᴇᴍᴠɪᴠɪᴠᴏᴠs
+ │• 🎀 ғᴇᴍ8ᴠs8
+ │• 🎀 ғᴇᴍ12ᴠs12
+ │• 🎀 ғᴇᴍ16ᴠs16
+ │• 🎀 ғᴇᴍɪɴᴛᴇʀɴᴀ 4
+ │• 🎀ғᴇᴍɪɴᴛᴇʀɴᴀ 6
  ┗━━━━━━━━━━━━━━━━━━━━┛
  ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗟𝗜𝗦𝗧𝗔𝗦-𝗠𝗔𝗦𝗖 🌋                               
  ┗━━━━━━━━━━━━━━━━━━━━┛
- │•🌋 *_mascinfinito14_*
- │•🌋 *_mascinfinito16_*
- │•🌋 *_mascinfinito18_*
- │•🌋 *_mascinfinito20_*
- │•🌋 *_mascinfinito22_*
- │•🌋 *_mascinfinito00_*
- │•🌋 *_masinfinitovs_*
- │•🌋 *_mascvivido14_*
- │•🌋 *_mascvivido16_*
- │•🌋 *_mascvivido18_*
- │•🌋 *_mascvivido20_*
- │•🌋 *_mascvivido22_*
- │•🌋 *_mascvivido00_*
- │•🌋 *_mascvividovs_*
- │•🌋 *_masc8vs8_*
- │•🌋 *_masc12vs12_*
- │•🌋 *_masc16vs16_*
- │•🌋 *_mascinterna4_*
- │•🌋 *_mascinterna6_*
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 14
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 16
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 18
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 20
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 22
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏ 00
+ │•🌋 ᴍᴀsᴄɪɴғɪɴɪᴛᴏᴠs
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 14
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 16
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 18
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 20
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 22
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏ 00
+ │•🌋 ᴍᴀsᴄᴠɪᴠɪᴅᴏᴠs
+ │•🌋 ᴍᴀsᴄ8ᴠs8
+ │•🌋 ᴍᴀsᴄ12ᴠs12
+ │•🌋 ᴍᴀsᴄ16ᴠs16
+ │•🌋 ᴍᴀsᴄɪɴᴛᴇʀɴᴀ 4
+ │•🌋 ᴍᴀsᴄɪɴᴛᴇʀɴᴀ 6
 ┗━━━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗟𝗜𝗦𝗧𝗔  𝗗𝗘 𝗩𝗦 𝗡𝗢𝗥𝗧𝗘 🇲🇽                            
  ┗━━━━━━━━━━━━━━━━━━━━┛
-  │•🇲🇽 *_4vs4norte_*
-  │•🇲🇽 *_6vs6norte_*
-  │•🇲🇽 *_8vs8norte_*
-  │•🇲🇽 *_12vs12norte_*
-  │•🇲🇽 *_16vs16norte_*
-  │•🇲🇽 *_20vs20norte_*
-  │•🇲🇽 *_24vs24norte_*
-  │•🇲🇽 *_scrim_*
-  │•🇲🇽 *_scrim2_*
-  │•🇲🇽 *_guerra_*
+  │•🇲🇽 4ᴠs4 ɴᴏʀᴛᴇ
+  │•🇲🇽 6ᴠs6 ɴᴏʀᴛᴇ
+  │•🇲🇽 8ᴠs8 ɴᴏʀᴛᴇ
+  │•🇲🇽 12ᴠs12 ɴᴏʀᴛᴇ
+  │•🇲🇽 16ᴠs16 ɴᴏʀᴛᴇ
+  │•🇲🇽 20ᴠs20 ɴᴏʀᴛᴇ
+  │•🇲🇽 24ᴠs24 ɴᴏʀᴛᴇ
+  │•🇲🇽 sᴄʀɪᴍ
+  │•🇲🇽 sᴄʀɪᴍ 2
+  │•🇲🇽 ɢᴜᴇʀʀᴀ
   ┗━━━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗩𝗦 𝗦𝗨𝗥 🇦🇷                              
  ┗━━━━━━━━━━━━━━━━━━━━┛
-  │•🇦🇷 *_4vs4sur_*
-  │•🇦🇷 *_6vs6sur_*
-  │•🇦🇷 *_8vs8sur_*
-  │•🇦🇷 *_12vs12sur_*
-  │•🇦🇷 *_16vs16sur_*
-  │•🇦🇷 *_20vs20sur_*
-  │•🇦🇷 *_24vs24sur_*
-  │•🇦🇷 *_scrimsur_*
-  │•🇦🇷 *_scrim2sur_*
-  │•🇦🇷 *_guerra_*
+  │•🇦🇷 4ᴠs4 sᴜʀ
+  │•🇦🇷 6ᴠs6 sᴜʀ
+  │•🇦🇷 8ᴠs8 sᴜʀ
+  │•🇦🇷 12ᴠs12 sᴜʀ
+  │•🇦🇷 16ᴠs16 sᴜʀ
+  │•🇦🇷 20ᴠs20 sᴜʀ
+  │•🇦🇷 24ᴠs24 sᴜʀ
+  │•🇦🇷 sᴄʀɪᴍsᴜʀ
+  │•🇦🇷 sᴄʀɪᴍ2sᴜʀ
+  │•🇦🇷 ɢᴜᴇʀʀᴀ
   ┗━━━━━━━━━━━━━━━━━━━━┛
  ┏━━━━━━━━━━━━━━━━━━━━┓
   *|* •𝗜𝗠𝗔𝗚𝗘𝗡𝗘𝗦 𝗙𝗙                                
  ┗━━━━━━━━━━━━━━━━━━━━┛
-  │•🗾 *_bermuda_*
-  │•🗾 *_kalahari_*
-  │•🗾 *_alpes_*
-  │•🗾 *_purgatorio_*
-  │•🗾 *_nexterra_*
-  │•🗾 *_agendasemanal_*
+  │•🗾 ʙᴇʀᴍᴜᴅᴀ
+  │•🗾 ᴋᴀʟᴀʜᴀʀɪ
+  │•🗾 ᴀʟᴘᴇs
+  │•🗾 ᴘᴜʀɢᴀᴛᴏʀɪᴏ
+  │•🗾 ɴᴇxᴛᴇʀʀᴀ
+  │•🗾 ᴀɢᴇɴᴅᴀsᴇᴍᴀɴᴀʟ
 ┗━━━━━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
