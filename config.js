@@ -10,44 +10,20 @@ import moment from 'moment-timezone';
 global.botnumber = "5493585137595"
 
 global.owner = [
-  ['5493585753625', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸 - Creador 👸', true],
-  ['59168683798', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸 - Creador 👸', true],
-  ['5493585753625', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', false],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  ['', '🩷 𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸', true],
-  [''],
-  [''],
-  [''],
-  [''],
-  [''],
-  [''],
-  [''],
-  [''], 
-  [''],  
-  [''],
-  [''],
-  [''],
-  [''], 
-  [''], 
-  ['']
-];
+  ['+5493536568522', 'Tizi bot ☠️ - Creador 👸', true]];
+  
 
-global.suittag = ['59168683798'];
-global.prems = ['59168683798'];
+
+global.suittag = ['+5493536568522'];
+global.prems = ['+5493536568522'];
 
 global.packname = '𝙏𝙤𝙢𝙖 𝙎𝙩𝙞𝙘𝙠𝙚𝙧';
-global.author = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
-global.wm = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
-global.titulowm = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
-global.titulowm2 = `𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸`
-global.igfg = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
-global.wait = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.author = 'Tizi bot ☠️';
+global.wm = 'Tizi bot ☠️';
+global.titulowm = 'Tizi bot ☠️';
+global.titulowm2 = `Tizi bot ☠️`
+global.igfg = 'Tizi bot ☠️';
+global.wait = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -71,15 +47,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸`;
-global.gt = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗 🧸';
-global.mysticbot = '𝗦𝗮𝗺𝗺𝘆𝗕𝗼𝘁-𝗠𝗗🧸';
+global.wm2 = `${dia} ${fecha}\nTizi bot ☠️`;
+global.gt = 'Tizi bot ☠️';
+global.mysticbot = 'Tizi bot ☠️';
 global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
 global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.waitt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
-global.waittt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
-global.waitttt = '🧸 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
-global.nomorown = '59168683798';
+global.waitt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.waittt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.waitttt = '☠️ 𝘊𝘢𝘳𝘨𝘢𝘯𝘥𝘰...';
+global.nomorown = '+5493536568522';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
