@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "5493536568522"
+global.botnumber = "5493436238323"
 
 global.owner = [
   ['5493536568522', 'Tizi bot ☠️ - Creador 👸', true]];
